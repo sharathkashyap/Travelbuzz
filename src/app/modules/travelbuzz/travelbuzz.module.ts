@@ -10,7 +10,8 @@ import { SliderComponent } from './components/slider/slider.component';
   imports: [
     CommonModule
   ],
-  declarations: [CardComponent, HomeComponent, FormComponent, FiltersComponent, SliderComponent],
-  providers: []
+  declarations: [HomeComponent, CardComponent, FormComponent, FiltersComponent, SliderComponent],
+  providers: [],
+  exports: [HomeComponent, CardComponent, FormComponent, FiltersComponent, SliderComponent]
 })
 export class TravelbuzzModule { }

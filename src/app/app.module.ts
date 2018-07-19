@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { TravelbuzzModule } from './modules/travelbuzz/travelbuzz.module';
 import { TtpModule } from './modules/ttp/ttp.module';
+import { HomeComponent } from './modules/travelbuzz/components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -13,8 +14,7 @@ import { TtpModule } from './modules/ttp/ttp.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TravelbuzzModule,
-    TtpModule
+    TravelbuzzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
